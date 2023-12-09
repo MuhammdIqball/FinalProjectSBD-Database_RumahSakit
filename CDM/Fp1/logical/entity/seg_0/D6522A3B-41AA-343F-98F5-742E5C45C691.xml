@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6522A3B-41AA-343F-98F5-742E5C45C691" name="Prosedur_Medis">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 19:53:32 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pr_id" id="61B2701D-3E9C-33B3-B35C-5595FF014BD5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:17:30 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pr_namaproseduur" id="C0C459B6-2AE5-D81F-1405-665035414CDE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:17:47 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pr_deskripsi" id="1BE407BB-E13A-1AE6-88E3-5FD83FF1326F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:18:11 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pr_durasi" id="DA5D3E9C-5E6E-34C5-B8A2-6EDA1B90E0D2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:18:21 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pr_biaya" id="E8A95F0D-F69E-F57B-8C2D-6FD6BB4B927B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:18:30 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B827E54-DCCB-183E-B0E8-9361655FB597" name="Prosedur_Medis PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:19:02 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61B2701D-3E9C-33B3-B35C-5595FF014BD5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

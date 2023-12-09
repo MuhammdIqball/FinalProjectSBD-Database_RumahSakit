@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63FAD1E5-D974-C48C-2B61-CE10820D5926" name="Jadwal">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 19:53:41 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ja_id" id="B96E5061-7888-E634-932A-0E52028BFC19">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:12:55 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ja_tanggalperawatan" id="4633B6D1-4457-DC17-D81B-813700B52394">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:13:25 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ja_informasi" id="0082BB37-3CEA-8CC5-24B3-5BB846C1D2A2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:13:52 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ja_jenisperawatan" id="812BDD36-0C03-C646-77E4-4A2C8E8DD343">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:14:08 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ja_ruangan" id="0B54A5FD-93B7-0488-7B5D-BAFD81CCC15F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:14:24 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="251909CC-437A-F9D4-1057-67D631965C9A" name="Jadwal PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-12-09 20:16:16 UTC</createdTime>
+<ownerDesignName>Fp1</ownerDesignName>
+<engineerTo>
+<item key="292584F1-9B78-B809-BA9C-64727FA00B45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B96E5061-7888-E634-932A-0E52028BFC19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

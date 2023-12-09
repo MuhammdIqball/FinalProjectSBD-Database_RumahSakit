@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="50342433-5030-85C5-B4D1-8B68BB4B5BB0" name="Dokter" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C8C3D871-A932-79D2-601B-A9DF967D9996" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="63FAD1E5-D974-C48C-2B61-CE10820D5926" name="Jadwal" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C8C3D871-A932-79D2-601B-A9DF967D9996" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="18058376-C6A5-A5DF-772D-9DF8011950E2" name="Pasien" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C8C3D871-A932-79D2-601B-A9DF967D9996" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D6522A3B-41AA-343F-98F5-742E5C45C691" name="Prosedur_Medis" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C8C3D871-A932-79D2-601B-A9DF967D9996" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
